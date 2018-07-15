@@ -1,0 +1,32 @@
+:root {
+  --background: #eeeeee;
+  --fontsize: 30px;
+  --fontcolor: #000;
+}
+
+body {
+  font-family: 'helvetica neue', sans-serif;
+  margin: auto;
+}
+
+
+h1 {
+  margin: 30px;
+}
+
+main {
+  background: var(--background);
+  width: 80vw;
+  height: 50vh;
+  font-size: var(--fontsize);
+  color: var(--fontcolor);
+  text-align: center;
+  vertical-align: middle;
+  line-height: 45vh;
+}
+
+.controls {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 30px;
+}
