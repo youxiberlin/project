@@ -7,18 +7,19 @@
    <link rel="stylesheet" href="/css/bootstrap.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="fontpicker-style.css">
-  <title>Font adapter</title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <title>Font & Color Picker</title>
 </head>
 <body>
   <div class="container-fluid">
     <h1 class="mt-3">Font & Color Picker</h1>
-    <div class="controls mb-4 mt-2">
+    <div class="controls mb-2 mt-2">
       <label for="fontsize" data-sizing="px">Fontsize:</label>
-      <input id= "fontsize" type="range" name="fontsize" min="8" max="63" value="30" data-sizing="px"><span id="output"></span><br>
+      <input id= "fontsize" type="range" name="fontsize" min="8" max="63" value="30" data-sizing="px"><br>
       <label for="fontcolor">Font Color</label>
-      <input id= "fontcolor" name="fontcolor" type="color" min="10" value="#333333"><span id="output-fontcolor"></span><br>
+      <input id= "fontcolor" name="fontcolor" type="color" min="10" value="#333333">
       <label for="background">Background</label>
-      <input id= "background" name="background" type="color" min="10" value="#fefefe"><span id="output-color"></span><br>
+      <input id= "background" name="background" type="color" min="10" value="#fefefe">
     </div>
 </div>
     <div id="demo">
@@ -27,7 +28,7 @@
 
     <h5 class="mt-3">Press "Enter" or "Space" key to get random colors</h5>
 
-    <div class="button mt-3">
+    <div class="button mt-3 mb-5">
           <button id="button" type="button" class="btn btn-outline-secondary">Try random color</button>
     </div>
 
@@ -40,7 +41,11 @@
     <h2 id="random-output"></h2>
     <h2 id="result"></h2>
     </div> -->
-
+  <footer class="footer pt-1">
+    <div class="container">
+          &copy; Made with <i class="fas fa-heart"></i> & <i class="fas fa-coffee"></i> by Yuki Sato in Berlin
+    </div>
+  </footer>
   <script type="text/javascript" src="main.js">
   </script>
 </body>

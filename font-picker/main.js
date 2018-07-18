@@ -44,7 +44,7 @@ function randomFontcolor(){
 // to change it to random color with pressing Enter key
 window.addEventListener("keypress", function(e){
   var key = e.which || e.keyCode;
-  if (key === 13 || 32) {
+  if (key === 13 || key === 32) {
     randomFontcolor();
     changeRandomcolor();
   }
