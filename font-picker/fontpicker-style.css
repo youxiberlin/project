@@ -1,0 +1,50 @@
+:root {
+  --fontsize: 30px;
+  --fontcolor: #333;
+  --background: #eeeeee;
+}
+
+body {
+  font-family: 'helvetica neue', sans-serif;
+  margin: auto;
+}
+
+h1 {
+  color: #bbb;
+  text-align: center;
+}
+
+.controls {
+  text-align: center;
+}
+
+.controls > label {
+  color: #666;
+}
+
+#demo {
+  width: 100vw;
+  height: 40vh;
+  background: var(--background);
+  text-align: center;
+  padding-top: 14vh;
+  margin: auto;
+  font-size: var(--fontsize);
+  color: var(--fontcolor);
+}
+
+#demo-text {
+  background: none;
+  border: none;
+  text-align: center;
+  color: var(--fontcolor);
+}
+
+.button {
+  text-align: center;
+}
+
+h4 {
+  color: #ccc;
+  text-align: center;
+}
