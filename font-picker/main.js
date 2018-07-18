@@ -21,8 +21,8 @@ function getRandomColor() {
 
 const randomBtn = document.getElementById("button");
 
-// randomBtn.addEventListener("click", changeRandomcolor);
-// randomBtn.addEventListener("click", randomFontcolor);
+randomBtn.addEventListener("click", changeRandomcolor);
+randomBtn.addEventListener("click", randomFontcolor);
 
 function changeRandomcolor(){
   document.getElementById("demo").style.backgroundColor = getRandomColor();
